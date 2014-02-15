@@ -1,0 +1,86 @@
+<!-- Durga V. Makhija (6857874) -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" href="styles/style.css" type="text/css" />
+	<link rel="shortcut icon" href="images/favicon.ico" type="favicon/ico" />
+</head>
+
+<body>
+<div id="main">
+	<div id="header">
+		<p>Contact Page</p>
+	</div>
+	<div id="content">
+		<div id="left">
+			<p>
+			<a href="image.html">
+				<img src="images/thumbnail-small.jpg" alt="thumbnail-small-image"/>
+			</a>
+			</p>
+			<p><a href="home.html" class="bottom-border">Home</a></p>
+				<p><a href="video.html" class="bottom-border">Video</a></p>
+				<p><a href="contact.html" class="bottom-border">Contact</a></p>
+			
+		</div>
+
+		<div id="right">
+		<fieldset>
+		<legend>Contact Us</legend>
+			<!--form start-->
+			<form method="" action="">
+			<label for="studentname">Student Name </label>
+			<input type="text" name="studentname" id="studentname" /><br/>		
+			<label for="email">Email: </label>
+			<input type="text" name="email" id="email" /></br>
+			<!-- radio buttons-->
+			<label>Enrolment status: </label>			
+			<input type="radio" name="enrolment" id="fulltime" value="fulltime" checked="checked" />Full-Time
+			<input type="radio" name="enrolment" id="parttime" value="parttime" />Part-Time<br/><br/>
+			<!-- dropdown menu -->
+			<label>Program:</label>
+			<select name="program" id="program">
+				<option value="Business" selected="selected">Business</option>
+				<option value="Computing">Computing</option>
+			</select><br/>
+			<!-- listbox-->
+			<label>Courses:</label>
+			<select name="courses" id="courses" size="3" multiple="multiple">
+			<option value="mkt" selected="selected">Marketing</option>
+			<option value="acc">Accounting</option>
+			<option value="scm">Supply Chain Management</option>
+			<option value="hrm">Human Resources Management</option>
+			<option value="CAD">Computer Applications Development</option>
+			<option value="CPA" >Computer Programmer Analyst</option>
+			<option value="MSD">Mobile Soltions Developer</option>
+			<option value="WDD" >Web Design And Development</option>			
+			</select><br/>
+			<!-- textarea -->
+			<label>Comments: </label>
+			<textarea name="comments" id="comments" rows="5" cols="25"/>
+			</textarea><br/>
+			<!-- checkbox -->
+			<input type="checkbox" name="newsletter" id="newsletter" value="newsletter" checked="checked"/>
+			Would you like to receive email/newsletter? <br/> 
+			
+			<!-- submit button -->
+			<input type="submit" name="submit" id="submit" value="Submit" />
+			<!-- reset button -->
+			<input type="reset" id="reset" />
+			</form>
+			<!--form end-->
+		</fieldset>		
+		</div>
+	</div>
+	<div id="footer">
+		<a href="http://www.conestogac.on.ca" target="_blank">Website</a>
+			| @ copyright &copy; 2013-2014 |
+		<a href="mailto:dmakhija-cc@conestogac.on.ca">Email</a>
+	</div>
+</div>
+</body>
+</html>

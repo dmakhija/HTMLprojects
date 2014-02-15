@@ -1,0 +1,327 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    /*background: url(images/fish_logo.jpg);*/
+	/*color: 6f6f6f;*/
+	/* added font color as green in whole body part as below*/
+	color: green;	
+}
+
+html, body, #wrapper, h1, #nav, #nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+th, td {
+    font-size: 10px;
+}
+
+img { border: 0; }
+
+#wrapper {
+    margin: auto;
+    text-align: left;
+    width: 750px;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-size: 10px;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 4px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.block {
+    display: block;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1px;
+    line-height: 1px;
+}
+
+* html .clear {
+    margin-top: -5px;
+    margin-bottom: -4px;
+}
+
+.left {
+    float: left;
+    margin: 1px 8px 0px 0px;
+}
+
+.right {
+    float: right;
+    margin: 1px 0px 0px 8px;
+}
+
+.softright {
+    text-align: right;
+}
+
+.readmore {
+    text-align: right;
+    padding-right: 1em;
+}
+
+/* ***** */
+
+body {
+   /* background: #cb0368;*/
+   /*added cranberry background colour to body as below: */
+	background: #9F000F; 
+	
+}
+
+#wrapper {
+    width: 698px;
+    border: 1px solid #fff; 	
+    /*background: #fff;*/
+	/* added mustard background colour to wrapper as below: */
+	background-color:  #f7931d; 
+}
+
+* html #wrapper {
+    width: 700px;
+    w\idth: 698px;
+}
+
+h1 {
+    padding: 9px 18px
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #cb4c8c;
+}
+
+a.orange { color: #d07c1a; }
+a.green  { color: #858e10; }
+a.teal   { color: #238aaa; }
+a.purple { color: #9f6bc8; }
+
+a:hover        { color: #FF2A8C; }
+a:hover.orange { color: #FF9B0B; }
+a:hover.green  { color: #45D110; }
+a:hover.teal   { color: #239FF0; }
+a:hover.purple { color: #C12EFA; }
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* nav */
+
+* html .clear {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    width: 139px;
+    font-size: 11px;
+    font-weight: bold;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+#nav li.first {
+    width: 138px;
+    border-left: none;
+}
+
+#nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 2px 0;
+    width: 100%;	
+    /*background: #cb4c8c;*/
+	/*added cranberry background colour to navigation bar as below: */
+    background: #9F000F; 
+}
+
+#nav a:hover {
+   /*background: #F076AD;*/
+	/*added light shade of cranberry as a background colour to navigation links menu while hover*/
+	background: #BC4D57;
+}
+
+/* highlights */
+
+#highlights {
+  /*  background: url(images/photo_5.jpg) no-repeat;*/
+	background: url(../images/pizza1.png) no-repeat;
+    width: 327px;
+    float: left;
+    margin-right: -10px;
+	margin-top: 10px;
+}
+
+#highlights .p {
+    /*padding: 8px 7px;*/
+	padding: 0px 5px 7px 5px;
+    margin-left: 187px;
+    /* border-bottom: 1px solid white; */
+}
+
+* html #highlights .p {
+    padding-bottom: 6px;
+}
+
+/* #highlights div.green  { background: #bdcb21;  } */
+/* #highlights div.purple { background:  #7976d6; } */
+/* #highlights div.orange { background:  /*#f2901c; } */
+
+#highlights #topspot {
+    padding: 13px 11px;
+	border-top: 1px solid purple;
+	margin: 10px 10px 10px 0px;
+}
+
+#highlights .faceotweek {
+    float: left;
+    width: 97px;
+    font-size: 10px;
+    margin-top: 1em;
+	font-weight: bold;
+	/*deducted: bcoz green color for font added above in body tag*/
+   /* color: #487388;*/
+    
+}
+
+#highlights .faceotweek p {
+    padding: 0 2px;
+}
+
+/* right */
+
+#right {
+    width: 370px;
+    float: right;
+   /* border-top: 1px solid #bdbdbd;*/
+    /* background: url(images/body_tr_bg.gif); */
+	border-top: 1px solid purple;
+	margin: 10px 0px 0px 0px; 
+}
+
+#right .right {
+    margin-left: 1px;
+}
+
+#right #products {
+    float: left;
+    width: 188px;
+}
+
+#right #products div {
+   /* border-top: 1px solid #bdbdbd;
+    padding: 0px 0px 0px 0px; */
+	border-top: 1px solid purple;
+	
+}
+
+#right #products #item-one {
+    border-top: none;
+}
+
+#right #products h2 {
+    clear: both;
+	margin: 10px 10px 5px 0px;
+}
+
+#right #news {
+    float: right;
+    width: 165px;
+    margin: 10px 5px 10px 10px;
+    display: inline;
+}
+
+#right #news h2 {
+    margin-bottom: 1.0em; /*0.5em;*/
+}
+
+#right #news h3 {
+    margin-bottom: -0.4em;
+}
+
+/* beauty */
+
+#beauty {
+    float: right;
+    width: 370px;
+   /* border-top: 1px solid #bdbdbd; */
+    /* background: url(images/body_br_bg.gif); */
+	border-top: 1px solid purple;
+}
+
+#beauty div {
+    padding: 5px;
+}
+#beauty h2 {
+    margin: 5px 0px 5px 0px;
+}
+
+
+/* footer */
+
+#footer {
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+	/*background: #cb0368; */
+	/*added cranberry background colour to footer as below:*/
+	background: #9F000F;
+}
+
+#footer a {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    color: #f8cde3;
+}
+
+/* added by me*/
+#mydiv
+{
+    padding: 10px 0px 0px 0px;
+	height: 570px;
+}
+
+#image
+{
+	padding: 10px 10px 10px 10px;	
+}
